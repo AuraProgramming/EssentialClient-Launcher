@@ -1,2 +1,2 @@
-# Minecraft-Launcher-for-MCBE-Essential-Client
-Minecraft Launcher for MCBE (Essential Client)
+#EssentialClient Launcher
+Minecraft Launcher for MCBE (Essential Client) that Automatically imports the client in your game.
