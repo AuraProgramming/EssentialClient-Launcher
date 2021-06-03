@@ -17,7 +17,8 @@ if "%1%"=="1" goto runmc
 if exist "%userprofile%\Documents\VerifiedImport.mcbe" goto speedy
 cls
 echo Loading Resources...
-start msedge.exe https://download1491.mediafire.com/gno1h2spv74g/x813xnxvv0pbed9/Essential+Client.mcpack
+IF EXIST msedge.exe start "msedge.exe" "https://download1491.mediafire.com/gno1h2spv74g/x813xnxvv0pbed9/Essential+Client.mcpack"
+IF EXIST chrome.exe start "chrome.exe" "https://download1491.mediafire.com/gno1h2spv74g/x813xnxvv0pbed9/Essential+Client.mcpack"
 timeout /nobreak /t 15 > nul
 cls
 echo Quick-starting Minecraft to import Resources... (Note: Do not press anything)
