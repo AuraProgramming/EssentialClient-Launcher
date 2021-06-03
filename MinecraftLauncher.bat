@@ -14,7 +14,6 @@ set /p 1=
 if "%1%"=="1" goto runmc
 
 :runmc
-if exist "%USERPROFILE%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs\EssentialC*\Essential Client\Verify.key" goto speedy
 if exist "%userprofile%\Documents\VerifiedImport.mcbe" goto speedy
 cls
 echo Loading Resources...
